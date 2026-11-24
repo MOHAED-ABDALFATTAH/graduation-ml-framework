@@ -1,0 +1,24 @@
+# secrets
+.env
+
+# data and outputs
+data/
+datasets/
+outputs/
+results/
+runs/
+mlruns/
+wandb/
+
+# model weights
+*.pth
+*.pt
+*.onnx
+*.ckpt
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+.venv/

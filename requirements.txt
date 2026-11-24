@@ -1,0 +1,12 @@
+torch
+torchvision
+mlflow
+hydra-core
+omegaconf
+scikit-learn
+matplotlib
+pandas
+pyyaml
+pytest
+ultralytics
+pycocotools
