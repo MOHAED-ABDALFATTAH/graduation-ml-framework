@@ -1,12 +1,15 @@
-torch
-torchvision
+numpy
+pandas
+pyyaml
+pillow
+matplotlib
+scikit-learn
 mlflow
 hydra-core
 omegaconf
-scikit-learn
-matplotlib
-pandas
-pyyaml
-pytest
-ultralytics
 pycocotools
+pytest
+# Added later (detection training):
+# torch
+# torchvision
+# ultralytics

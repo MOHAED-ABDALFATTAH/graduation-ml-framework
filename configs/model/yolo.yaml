@@ -1,0 +1,4 @@
+# Placeholder model config. Real fields depend on the library you choose.
+name: yolo
+variant: yolov8n        # example only
+pretrained: true

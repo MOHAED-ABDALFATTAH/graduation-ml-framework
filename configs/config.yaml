@@ -1,0 +1,25 @@
+# Main config for the DETECTION track. Override from the command line, e.g.
+#   python scripts/run_experiment.py model=faster_rcnn experiment.name=faster_rcnn_baseline
+defaults:
+  - dataset: detection_v1
+  - model: yolo
+  - training: default
+  - evaluation: detection
+  - _self_
+
+experiment:
+  track: detection            # detection | classification | pipeline
+  name: baseline              # short name used in the run name
+  owner: CHANGE_ME            # your name (member_a, ...)
+  objective: baseline_comparison
+  seed: 42
+
+tracking:
+  enabled: true
+  experiment_name: Detection  # MLflow experiment (one per track)
+
+output:
+  root_dir: /content/drive/MyDrive/Graduation_Project/02_Experiment_Results
+  save_checkpoint: true
+  save_predictions: true
+  save_plots: true

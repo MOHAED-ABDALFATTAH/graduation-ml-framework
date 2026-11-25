@@ -1,0 +1,5 @@
+# @package _global_
+# Example experiment preset: python scripts/run_experiment.py +experiment=baseline
+experiment:
+  name: baseline
+  objective: baseline_comparison

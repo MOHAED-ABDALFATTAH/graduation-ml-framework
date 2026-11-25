@@ -1,0 +1,3 @@
+name: faster_rcnn
+variant: resnet50_fpn   # example only
+pretrained: true

@@ -1,0 +1,10 @@
+# PLACEHOLDERS: update after the dataset is finalized (see docs/protocol_detection.md)
+name: detection_v1
+version: detection_v1
+root: /content/drive/MyDrive/Graduation_Project/01_Dataset/detection_v1
+manifest: dataset_manifest.csv      # relative to root
+annotation_format: yolo             # yolo | coco (never mix)
+image_size: 640
+class_names:                        # FROZEN ORDER: index = class id. Never reorder.
+  - class_0
+  - class_1

@@ -1,0 +1,3 @@
+# Same values for EVERY model so results are comparable.
+conf_threshold: 0.25     # used only for precision / recall / F1
+iou_threshold: 0.5       # used for precision / recall / F1 (mAP uses COCO IoU 0.5:0.95)

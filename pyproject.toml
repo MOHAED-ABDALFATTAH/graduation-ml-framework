@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graduation-ml-framework"
+version = "0.1.0"
+description = "Shared experiment framework for pest detection and classification"
+requires-python = ">=3.9"
+
+[tool.setuptools.packages.find]
+include = ["src*"]
